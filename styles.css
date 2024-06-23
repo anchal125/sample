@@ -1,0 +1,185 @@
+*{
+    font-family:Arial;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+.navbar{
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: fixed; /* Add this line to make the navbar fixed */
+    top: 0px; /* Position it at the top of the page */
+    width: 100%; /* Make it take up the full width of the page */
+    height:50px;
+    
+}
+
+
+.left{
+    width:50%;
+    margin-left:15px;
+}
+
+.right{
+    width:50%;
+    display:flex;
+    justify-content: flex-end;
+    margin-right:15px;
+}
+
+
+
+.logo{
+    width:50px;
+    height:40px;
+}
+.logo img{
+    border:2px solid white;
+    border-radius:25px;
+    width:50px;
+    height:40px;
+}
+
+.nav-options a{
+    text-decoration: none;
+    color:white;
+    margin-left:20px;
+    
+}
+
+.nav-options a:hover{
+    color:aqua;
+}
+
+.search input {
+    margin-right: 10px; /* Adjust the right margin as needed */
+}
+
+
+
+.background{
+    background:rgba(2, 45, 65, 0.7) url("bg.jpg") ;
+    background-size:cover;
+    background-blend-mode: darken;
+
+}
+
+
+.content{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    color:white;
+    height:120vh;
+    
+
+}
+
+
+.box{
+    margin-top:80px;
+    max-width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+} 
+
+.text-content{
+    width:60%;
+}
+
+
+.content-icon{
+    width:40%;
+}
+
+
+
+.content-icon img{
+    border:2px solid white;
+    width:80%;
+    display:block;
+    margin:auto;
+
+
+
+}
+
+.bigt{
+    font-size:30px;
+    font-family: "Playwrite NG Modern";
+    font-weight: bold;
+   
+}
+
+.smallt{
+    font-size:20px;
+}
+
+
+.buttons button{
+    padding:8px 20px;
+    margin:7px 0;
+    border:2px solid white;
+    cursor:pointer;
+    border-radius:8px;
+    background: none;
+    color:white;
+
+
+}
+
+
+
+.pic-text{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    margin:auto;
+    margin-top:100px;
+
+
+}
+
+.left2{
+    flex-direction:row-reverse;
+}
+
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+
+}
+
+
+form.contact input{
+    width:50%;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.submit-btn{
+    margin:10px 0;
+    width:50%;
+}
+
+
+.contact .btn{
+    border:2px solid black;
+    padding:10px;
+    font-weight: bold;
+
+}
+
+
+
